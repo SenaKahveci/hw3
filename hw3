@@ -4,7 +4,7 @@ import seaborn as sns
 import pandas as pd
 sns.set()
 
-hw = pd.read_csv('HW3.txt')
+hw = pd.read_csv('hw.txt')
 hw.columns = ["day", "time", "open", "high", "low", "close", "volume" ]
 hw.head()
 
